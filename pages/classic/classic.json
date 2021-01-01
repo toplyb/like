@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "xs-like": "/components/like/index",
+    "xs-movie": "/components/classic/movie/index",
+    "xs-music": "/components/classic/music/index",
+    "xs-essay": "/components/classic/essay/index",
+    "xs-episode": "/components/episode/index",
+    "xs-nav": "/components/nav/index"
+  }
+}

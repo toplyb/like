@@ -1,0 +1,15 @@
+<view class='container'>
+    <view class="header">
+        <xs-episode class="episode" index="{{classic.index}}"></xs-episode>
+        <!--        <xs-like class="like" bind:like="onLike" like="{{likeStatus}}" count="{{likeCount}}">-->
+        <!--        </xs-like>-->
+    </view>
+    <view class="body">
+        <xs-movie hidden="{{classic.type != 100}}" image="{{classic.image}}" content="{{classic.content}}"></xs-movie>
+        <xs-music src="{{classic.url}}" title="{{classic.title}}" wx:if="{{classic.type == 200}}"
+                  image="{{classic.image}}" content="{{classic.content}}"></xs-music>
+        <xs-essay hidden="{{classic.type != 300}}" image="{{classic.image}}" content="{{classic.content}}"></xs-essay>
+    </view>
+    <xs-nav bind:right="onPrevious" bind:left="onNext" title="{{classic.title}}" latest="{{latest}}" first="{{first}}"
+            class="nav"></xs-nav>
+</view>

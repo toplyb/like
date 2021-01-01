@@ -1,0 +1,5 @@
+/**app.wxss**/
+page {
+    font-family: "PingFang SC-Thin";
+    font-size: 32rpx;
+}

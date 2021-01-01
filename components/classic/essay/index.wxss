@@ -1,0 +1,6 @@
+@import "../common.wxss";
+
+.content {
+    color: #ccc;
+    font-size: 15px;
+}

@@ -1,0 +1,7 @@
+<view hidden="{{hidden}}" class="container">
+    <image src="{{image}}" class="img {{playing?'rotation':''}}" />
+    <image class="player-img" bind:tap = "onPlay"
+           src="{{playing?playingUrl:waittingUrl}}" />
+    <image class='tag' src="../../images/music@tag.png" />
+    <text class="content">{{content}}</text>
+</view>
